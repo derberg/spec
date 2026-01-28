@@ -62,7 +62,7 @@ Github repositories that need to be updated at the same time to enable a release
 
 The steps described here are not intended to be strictly chronological. For a single release, it might make sense to start some pieces of work in a slightly different order. The intention of the steps here is meant to give release coordinators a rough idea of the sequence involved.
 
-### Step 1 - kick off call
+### Step 1 - kick off call (optional)
 
 A nice way to start a new release is to do one or more of the initial steps on an open live call/meeting.
 
@@ -91,7 +91,8 @@ Release branches should be present in the following repositories:
 - [spec](https://github.com/asyncapi/spec) where contributor works with the specification file,
 - [spec-json-schemas](https://github.com/asyncapi/spec-json-schemas) where contributor pushes changes to JSON Schema of the spec,
 - [parser-js](https://github.com/asyncapi/parser-js) where contributor makes necessary changes in the JavaScript Parser.
- 
+- (optional) [bindings](https://github.com/asyncapi/bindings) where contributor makes changes necessary usually in cases new binding is added or existing removed, or breaking changes introduced.
+
 Depending on the type of release you are working on, you should use one branch or another:
 
 - `next-spec`: for releasing minor versions. For example, `2.3.0` to `2.4.0`.
